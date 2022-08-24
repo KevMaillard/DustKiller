@@ -6,11 +6,16 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>vacuum.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="bubbles.png" />
     <None Remove="vacuum.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="vacuum.ico" />
   </ItemGroup>
 
   <ItemGroup>
