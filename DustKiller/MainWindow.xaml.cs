@@ -117,7 +117,7 @@ namespace DustKiller
             }
             catch (Exception ex)
             {
-                Console.WriteLine("Analyse impossible : " + ex.Message);
+                Console.WriteLine("Analyse-impossible : " + ex.Message);
             }
 
             espace.Content = totalSize + " Mb";
