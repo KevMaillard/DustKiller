@@ -28,7 +28,7 @@
         <Label Content="Actus" HorizontalAlignment="Center" Margin="0,591,0,0" VerticalAlignment="Top" Width="179" Visibility="Hidden"/>
 
 
-        <Button Content="&#xD;&#xA;&#xD;&#xA;Nettoyer" HorizontalAlignment="Center" Margin="0,302,0,262" Width="324" BorderBrush="Black" FontWeight="Bold" FontSize="22"/>
-        <Image HorizontalAlignment="Center" Height="71" Margin="0,312,0,0" VerticalAlignment="Top" Width="60" Source="/bubbles.png" IsHitTestVisible="False"/>
+        <Button x:Name="btnClean" Content="Nettoyer" HorizontalAlignment="Center" Margin="0,302,0,262" Width="324" BorderBrush="Black" FontWeight="Bold" Click="Button_Nettoyer_Click" FontSize="22"/>
+        <Image HorizontalAlignment="Left" Height="71" Margin="619,282,0,0" VerticalAlignment="Top" Width="60" Source="/bubbles.png" IsHitTestVisible="False"/>
     </Grid>
 </Window>
